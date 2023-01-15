@@ -31,6 +31,15 @@ python sheet_converter.py
     [--output-file OUTPUT_FILE]
 ```
 
+Using executable (from release page). In `PowerShell` or `Cmd`:
+
+```
+sheet_converter.exe --input-filename INPUT_FILENAME 
+    [--input-sheet INPUT_SHEET] 
+    [--number-of-header NUMBER_OF_HEADER] 
+    [--output-file OUTPUT_FILE]
+```
+
 
 ## Troubleshooting
 
