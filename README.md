@@ -13,6 +13,25 @@ pip install pandas
 pip install openpyxl
 ```
 
+## How to run
+
+Minimal:
+
+```
+python ./sheet_converter.py --input-filename INPUT_FILENAME 
+```
+
+Full:
+
+```
+python sheet_converter.py 
+    --input-filename INPUT_FILENAME 
+    [--input-sheet INPUT_SHEET] 
+    [--number-of-header NUMBER_OF_HEADER] 
+    [--output-file OUTPUT_FILE]
+```
+
+
 ## Troubleshooting
 
 1. Try using `pip3` instead of `pip`
